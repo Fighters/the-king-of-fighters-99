@@ -1,0 +1,72 @@
+{
+  "names": {
+    "default": {
+      "roman": "Shingo"
+    },
+    "japan": {
+      "roman": "Shingo",
+      "original": "矢吹 真吾"
+    }
+  },
+  "images": {
+    "face": "shingo.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Hatsugane",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Issetsu Seoi Nage Fukanzen",
+        "input": "{close}, :b: {or} :f:+[D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Ge-Shiki: Gofu 'Kakkodake'",
+        "input": ":f:+[B]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "114 Shiki: Aragami Mikansei",
+        "input": ":qcf:+[A]"
+      },
+      {
+        "name": "115 Shiki: Dokugami Mikansei",
+        "input": ":qcf:+[C]"
+      },
+      {
+        "name": "100 Shiki: Oniyaki Mikansei",
+        "input": ":dp:+[A] {or} [C]"
+      },
+      {
+        "name": "101 Shiki: Oboroguruma Mikansei",
+        "input": ":rdp:+[B] {or} [D]"
+      },
+      {
+        "name": "212 Shiki: Kototsuki Mikansei",
+        "input": ":hcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Shingo Kick",
+        "input": ":hcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Shingo Kinsei Ore Shiki: Nietogi",
+        "input": "{close}, :dp:+[B] {or} [D]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Ge-Shiki: Kake Horin",
+        "input": ":qcf::qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Burning Shingo",
+        "input": ":qcb::db::qcf:+[A] {or} [C]"
+      }
+    ]
+  }
+}
