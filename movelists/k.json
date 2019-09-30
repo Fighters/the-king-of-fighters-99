@@ -1,0 +1,78 @@
+{
+  "names": {
+    "default": {
+      "roman": "K'"
+    },
+    "japan": {
+      "roman": "K'",
+      "original": "ケイ・ダッシュ"
+    }
+  },
+  "images": {
+    "face": "k.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Spotpile",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Knee Strike",
+        "input": "{close}, :b: {or} :f:+[D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "One Inch",
+        "input": ":f:+[A]"
+      },
+      {
+        "name": "Knee Assault",
+        "input": ":f:+[B]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Ein Trigger",
+        "input": ":qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Second Shoot",
+        "input": ":f:+[B]",
+        "after": "Ein Trigger"
+      },
+      {
+        "name": "Second Shell",
+        "input": ":f:+[D]",
+        "after": "Ein Trigger"
+      },
+      {
+        "name": "Crow Bite",
+        "input": ":dp:+[A] {or} [C]"
+      },
+      {
+        "name": "Crow Bite Follow Up",
+        "input": ":dp:+[C] > :f:+[B] {or} [D]"
+      },
+      {
+        "name": "Minute Spike",
+        "input": ":qcb:+[B] {or} [D] ({airOK})"
+      },
+      {
+        "name": "Blackout",
+        "input": ":qcf:+[B] {or} [D]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Heat Drive",
+        "input": ":qcf::qcf:+[A] {or} [C] ({hold} [A] {or} [C] {toDelay})"
+      },
+      {
+        "name": "Chain Drive",
+        "input": ":qcf::df::qcb:+[A] {or} [C]"
+      }
+    ]
+  }
+}
