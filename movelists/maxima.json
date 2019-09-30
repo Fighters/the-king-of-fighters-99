@@ -1,0 +1,84 @@
+{
+  "names": {
+    "default": {
+      "roman": "Maxima"
+    },
+    "japan": {
+      "roman": "Maxima",
+      "original": "マキシマ"
+    }
+  },
+  "images": {
+    "face": "maxima.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Dynamite Drop",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Choke Vice",
+        "input": "{close}, :b: {or} :f:+[D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Mongolian",
+        "input": ":f:+[A]"
+      },
+      {
+        "name": "M-9 Maxima Missile (Prototype)",
+        "input": ":df:+[C]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "M-4 Vapor Cannon",
+        "input": ":qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "M-11 Dangerous Arch",
+        "input": ":hcf:+[B] {or} [D]"
+      },
+      {
+        "name": "System 1: Maxima Scramble",
+        "input": ":qcf:+[A]"
+      },
+      {
+        "name": "Double Bomber",
+        "input": ":qcf:+[A]",
+        "after": "System 1: Maxima Scramble"
+      },
+      {
+        "name": "Bulldog Press",
+        "input": ":qcf:+[A]",
+        "after": "Double Bomber"
+      },
+      {
+        "name": "System 2: Maxima Scramble",
+        "input": ":qcf:+[C]"
+      },
+      {
+        "name": "Skull Crash",
+        "input": ":qcf:+[C]",
+        "after": "System 2: Maxima Scramble"
+      },
+      {
+        "name": "Senton Press",
+        "input": ":f:+[B] {or} [D]",
+        "after": "Skull Crash"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Bunker Buster",
+        "input": ":qcf::df::qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Maxima Revenger",
+        "input": ":hcb::hcb:+[B] {or} [D]"
+      }
+    ]
+  }
+}
