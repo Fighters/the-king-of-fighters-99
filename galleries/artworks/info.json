@@ -1,0 +1,13 @@
+{
+    "names": [
+        { 
+            "language": "english",
+            "name": "Artworks"
+        },
+        {
+            "language": "portuguese",
+            "name": "Artes"
+        }
+    ],
+    "nsfw": false
+}

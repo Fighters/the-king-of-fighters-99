@@ -1,0 +1,16 @@
+{
+    "english": {
+        "normalThrows": "Normal Throws",
+        "commandMoves": "Command Moves",
+        "specialMoves": "Special Moves",
+        "desperationMove": "Desperation Move",
+        "desperationMoves": "Desperation Moves"
+    },
+    "portuguese": {
+        "normalThrows": "Agarrões Normais",
+        "commandMoves": "Golpes de Comando",
+        "specialMoves": "Golpes Especiais",
+        "desperationMove": "Desperation Move",
+        "desperationMoves": "Desperation Moves"
+    }
+}
