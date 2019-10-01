@@ -1,0 +1,125 @@
+{
+  "names": {
+    "default": {
+      "roman": "Mai"
+    },
+    "japan": {
+      "roman": "Mai",
+      "original": "不知火 舞"
+    }
+  },
+  "images": {
+    "face": "mai.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Shiranui Gorin",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Fusha Kuzushi",
+        "input": "{close}, :b: {or} :f:+[D]"
+      },
+      {
+        "name": "Yume Zakura",
+        "input": "{inAirAndClose}, :b: {or} :d: {or} :f:+[C] {or} [D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Kokuen no Mai",
+        "input": ":f:+[B]"
+      },
+      {
+        "name": "Benitsuru no Mai",
+        "input": ":df:+[B]"
+      },
+      {
+        "name": "Dairin Fusha Otoshi",
+        "input": "{inAir}, :d:+[A]"
+      },
+      {
+        "name": "Ukihane",
+        "input": "{inAir}, :d:+[B]"
+      },
+      {
+        "name": "Yusura Ume",
+        "input": "{inAir}, :d:+[D]"
+      },
+      {
+        "name": "Wall Jump",
+        "input": "{duringJumpNearWall}, :uf:"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Kachosen",
+        "input": ":qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Ryuenbu",
+        "input": ":qcb:+[A] {or} [C]",
+        "extraInfo": "{sayoChidoriFollowup}"
+      },
+      {
+        "name": "Sayo Chidori",
+        "input": ":qcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Hissatsu Shinobi Bachi",
+        "input": ":hcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Musasabi no Mai",
+        "input": "{charge} :d: :u:+[A] {or} [C] ({hold} [A] {or} [C] {toAttack})"
+      },
+      {
+        "name": "Yusura Ume",
+        "input": "{inAir}, :d:+[A] {or} [C]",
+        "after": "Musasabi no Mai",
+        "extraInfo": "{musasabiNoMaiFollowups}"
+      },
+      {
+        "name": "Ukihane",
+        "input": "{inAir}, :d:+[B] {or} [D]",
+        "after": "Musasabi no Mai",
+        "extraInfo": "{musasabiNoMaiFollowups}"
+      },
+      {
+        "name": "Toki Tsubute",
+        "input": "{inAirAndClose}, :qcb:+[B] {or} [D]",
+        "after": "Musasabi no Mai",
+        "extraInfo": "{musasabiNoMaiFollowups}"
+      },
+      {
+        "name": "Kuchu Musasabi no Mai",
+        "input": "{inAir}, :qcb:+[A] {or} [C]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Cho Hissatsu Shinobi Bachi",
+        "input": ":qcb::db::qcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Mizudori no Mai",
+        "input": ":qcf::qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Houou no Mai",
+        "input": ":qcb::qcb:+[A] {or} [C]"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "sayoChidoriFollowup": "Can be done immediately after a Sayo Chidori",
+      "musasabiNoMaiFollowups": "To perform this followup, do not hold [A] {or} [C] while performing the Musasabi no Mai"
+    },
+    "portuguese": {
+      "sayoChidoriFollowup": "Pode ser feito imediatamente após um Sayo Chidori",
+      "musasabiNoMaiFollowups": "Para fazer esta continuação, não segure [A] {or} [C] ao fazer o Musasabi no Mai"
+    }
+  }
+}
