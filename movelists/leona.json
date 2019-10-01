@@ -1,0 +1,85 @@
+{
+  "names": {
+    "default": {
+      "roman": "Leona"
+    },
+    "japan": {
+      "roman": "Leona",
+      "original": "レオナ・ハイデルン"
+    }
+  },
+  "images": {
+    "face": "leona.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Leona Crash",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Order Buckler",
+        "input": "{close}, :b: {or} :f:+[D]"
+      },
+      {
+        "name": "Heidern Inferno",
+        "input": "{inAirAndClose}, :b: {or} :d: {or} :f:+[C] {or} [D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Strike Arch",
+        "input": ":b: {or} :f:+[B]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Moon Slasher",
+        "input": "{charge} :d: :u:+[A] {or} [C]"
+      },
+      {
+        "name": "Baltic Launcher",
+        "input": "{charge} :b: :f:+[A] {or} [C]"
+      },
+      {
+        "name": "Grand Saber",
+        "input": "{charge} :b: :f:+[B] {or} [D]"
+      },
+      {
+        "name": "Gliding Buster",
+        "input": "{charge} :b: :f:+[D] > :f:+[D]"
+      },
+      {
+        "name": "Earring Bomb",
+        "input": ":qcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Earring Bomb: Heart Attack",
+        "input": ":rdp:+[B] {or} [D]"
+      },
+      {
+        "name": "Manual Trigger",
+        "input": ":rdp:+[B] {or} [D]",
+        "after": "Earring Bomb: Heart Attack"
+      },
+      {
+        "name": "X-Calibur",
+        "input": "{inAir}, :qcb:+[A] {or} [C]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "V-Slasher",
+        "input": "{inAir}, :qcf::df::qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Rebel Spark",
+        "input": ":qcb::db::qcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Grateful Dead",
+        "input": ":qcf::qcf:+[A] {or} [C]"
+      }
+    ]
+  }
+}
