@@ -1,0 +1,92 @@
+{
+  "names": {
+    "default": {
+      "roman": "Takuma"
+    },
+    "japan": {
+      "roman": "Takuma",
+      "original": "タクマ・サカザキ"
+    }
+  },
+  "images": {
+    "face": "takuma.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Osotogari",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Ippon Seoi Nage",
+        "input": "{close}, :b: {or} :f:+[D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Oniguruma",
+        "input": ":f:+[A]"
+      },
+      {
+        "name": "Hisha Otoshi",
+        "input": ":b:+[A]"
+      },
+      {
+        "name": "Kawarawari",
+        "input": ":f:+[B]"
+      },
+      {
+        "name": "Keimauchi",
+        "input": ":df:+[B]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Ko-oken",
+        "input": ":qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Hien Shippukyaku",
+        "input": "{charge} :db: :f:+[B] {or} [D]"
+      },
+      {
+        "name": "Zanretsuken",
+        "input": ":f::b::f:+[A] {or} [C]"
+      },
+      {
+        "name": "Shorankyaku",
+        "input": ":hcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Moko Buraigan",
+        "input": ":qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Sanchin no Kata",
+        "input": ":d::d:+[A] {or} [C] ({hold} [A] {or} [C] {toFillMeter}"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Ryuko Ranbu",
+        "input": ":qcf::df::qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Haoh Shikoken",
+        "input": ":f::hcf:+[A] {or} [C] ({hold} [A] {or} [C] {toCharge})"
+      },
+      {
+        "name": "Shin Kishin Geki",
+        "input": "{close}, :qcf::qcf:+[A] {or} [C]"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "toFillMeter": "to fill super meter"
+    },
+    "portuguese": {
+      "toFillMeter": "para encher o medidor de super"
+    }
+  }
+}
