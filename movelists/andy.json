@@ -1,0 +1,91 @@
+{
+  "names": {
+    "default": {
+      "roman": "Andy"
+    },
+    "japan": {
+      "roman": "Andy",
+      "original": "アンディ・ボガード"
+    }
+  },
+  "images": {
+    "face": "andy.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Gorin Kai",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Kakaekomi Nage",
+        "input": "{close}, :b: {or} :f:+[D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Agemen",
+        "input": ":df:+[A]"
+      },
+      {
+        "name": "Uwa Agito",
+        "input": ":f:+[B]"
+      }      
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Hishoken",
+        "input": ":qcb:+[A]"
+      },
+      {
+        "name": "Geki Hishoken",
+        "input": ":qcb:+[C]"
+      },
+      {
+        "name": "Shoryudan",
+        "input": ":dp:+[A] {or} [C]"
+      },
+      {
+        "name": "Zaneiken",
+        "input": ":db::f:+[A] {or} [C]"
+      },
+      {
+        "name": "Gadanko",
+        "input": ":qcf:+[A] {or} [C]",
+        "after": "Zaneiken"
+      },
+      {
+        "name": "Kuhadan",
+        "input": ":hcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Gekiheki Haisuisho",
+        "input": "{close}, :hcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Genei Shiranui",
+        "input": "{inAir}, :qcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Shimo Agito",
+        "input": "{press} [A] {or} [C]",
+        "after": "Genei Shiranui"
+      },
+      {
+        "name": "Uwa Agito",
+        "input": "{press} [B] {or} [D]",
+        "after": "Genei Shiranui"
+      }
+    ],
+    "{desperationMove}": [
+      {
+        "name": "Cho Reppadan",
+        "input": ":qcb::db::f:+[B] {or} [D]"
+      },
+      {
+        "name": "Zanei Ryuseiken",
+        "input": ":qcb::db::qcf:+[A] {or} [C]"
+      }
+    ]
+  }
+}
