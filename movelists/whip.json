@@ -1,0 +1,83 @@
+{
+  "names": {
+    "default": {
+      "roman": "Whip"
+    },
+    "japan": {
+      "roman": "Whip",
+      "original": "ウィップ"
+    }
+  },
+  "images": {
+    "face": "whip.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Alpha",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Zett",
+        "input": "{close}, :b: {or} :f:+[D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Whip Shot",
+        "input": ":f:+[A] ({upTo5x})"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Boomerang Shot 'Code: SC'",
+        "input": ":hcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Assassin Strike 'Code: BB'",
+        "input": ":dp:+[A] {or} [B] {or} [C] {or} [D]"
+      },
+      {
+        "name": "Desert Eagle",
+        "input": ":rdp:+[A] {or} [C] ({tap} [A] {or} [C] {repeatedly} {forMoreHits})"
+      },
+      {
+        "name": "Strength Shot Type A 'Code: Superior'",
+        "input": ":hcb:+[A] ({hold} [A] {toDelay})"
+      },
+      {
+        "name": "Strength Shot Type D 'Code: Candy'",
+        "input": "{whileDelaying}, {press} [D]",
+        "after": "Strength Shot Type A 'Code: Superior'"
+      },
+      {
+        "name": "Strength Shot Type B 'Code: Strength'",
+        "input": ":hcb:+[B] ({hold} [B] {toDelay})"
+      },
+      {
+        "name": "Strength Shot Type D 'Code: Candy'",
+        "input": "{whileDelaying}, {press} [D]",
+        "after": "Strength Shot Type B 'Code: Strength'"
+      },
+      {
+        "name": "Strength Shot Type C 'Code: Victory'",
+        "input": ":hcb:+[C] ({hold} [C] {toDelay})"
+      },
+      {
+        "name": "Strength Shot Type D 'Code: Candy'",
+        "input": "{whileDelaying}, {press} [D]",
+        "after": "Strength Shot Type C 'Code: Victory'"
+      },
+      {
+        "name": "Hook Shot 'Code: Zephyr'",
+        "input": "{inAir}, :qcb:+[A] {or} [C]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Sonic Slaughter 'Code: KW'",
+        "input": ":qcb::db::qcf:+[A] {or} [C]"
+      }
+    ]
+  }
+}
