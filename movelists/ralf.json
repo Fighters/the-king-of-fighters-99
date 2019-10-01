@@ -1,0 +1,79 @@
+{
+  "names": {
+    "default": {
+      "roman": "Ralf"
+    },
+    "japan": {
+      "roman": "Ralf",
+      "original": "ラルフ・ジョーンズ"
+    }
+  },
+  "images": {
+    "face": "ralf.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Dynamite Headbutt",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Northern Light Bomb",
+        "input": "{close}, :b: {or} :f:+[D]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Vulcan Punch",
+        "input": "{tap} [A] {or} [C] {repeatedly} ({use} :f: {toMove})"
+      },
+      {
+        "name": "Gatling Attack",
+        "input": "{charge} :b: :f:+[A] {or} [C]"
+      },
+      {
+        "name": "Dive Bomber Punch",
+        "input": "{charge} :d: :u:+[A] {or} [C]"
+      },
+      {
+        "name": "Dive Bomber Punch (Air)",
+        "input": "{inAir}, :qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Super Argentine Backbreaker",
+        "input": ":hcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Ralf Tackle",
+        "input": ":hcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Ralf Kick",
+        "input": "{hold} [B] {or} [D] {then} {release}",
+        "extraInfo": "{ralfKickTimer}"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Super Vulcan Punch",
+        "input": ":qcf::df::qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Bareback Vulcan Punch",
+        "input": ":qcb::db::qcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Galactica Phantom",
+        "input": ":qcf::qcf:+[A] {or} [C]"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "ralfKickTimer": "You must hold the button for at least 4 seconds"
+    },
+    "portuguese": {
+      "ralfKickTimer": "Você deve segurar o botão por, pelo menos, 4 segundos"
+    }
+  }
+}
