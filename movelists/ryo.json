@@ -1,0 +1,80 @@
+{
+  "names": {
+    "default": {
+      "roman": "Ryo"
+    },
+    "japan": {
+      "roman": "Ryo",
+      "original": "リョウ・サカザキ"
+    }
+  },
+  "images": {
+    "face": "ryo.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Tani Otoshi",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Tomoe Nage",
+        "input": "{close}, :b: {or} :f:+[D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Hyochu Wari",
+        "input": ":f:+[A]"
+      },
+      {
+        "name": "Jodan Uke",
+        "input": ":f:+[B]"
+      },
+      {
+        "name": "Gedan Uke",
+        "input": ":df:+[B]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Ko-oken",
+        "input": ":qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Koho",
+        "input": ":dp:+[A] {or} [C]"
+      },
+      {
+        "name": "Koho Shippuken",
+        "input": ":qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Moko Raijinsetsu",
+        "input": ":qcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Hien Shippukyaku",
+        "input": ":hcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Zanretsuken",
+        "input": ":f::b::f:+[A] {or} [C]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Ryuko Ranbu",
+        "input": ":qcf::df::qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Haoh Shokoken",
+        "input": ":f::hcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Tenchi Haoken",
+        "input": ":qcf::qcf:+[A] {or} [C]"
+      }
+    ]
+  }
+}
