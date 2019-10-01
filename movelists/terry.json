@@ -1,0 +1,85 @@
+{
+  "names": {
+    "default": {
+      "roman": "Terry"
+    },
+    "japan": {
+      "roman": "Terry",
+      "original": "テリー・ボガード"
+    }
+  },
+  "images": {
+    "face": "terry.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Grasping Upper",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Buster Throw",
+        "input": "{close}, :b: {or} :f:+[D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Hammer Punch",
+        "input": ":f:+[A]"
+      },
+      {
+        "name": "Rising Upper",
+        "input": ":df:+[C]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Power Wave",
+        "input": ":qcf:+[A]"
+      },
+      {
+        "name": "Round Wave",
+        "input": ":qcf:+[C]"
+      },
+      {
+        "name": "Burn Knuckle",
+        "input": ":qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Crack Shoot",
+        "input": ":qcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Rising Tackle",
+        "input": "{charge} :d: :u:+[A] {or} [C]"
+      },      
+      {
+        "name": "Power Charge",
+        "input": ":hcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Power Dunk",
+        "input": ":dp:+[B] {or} [D]",
+        "after": "Power Charge"
+      },
+      {
+        "name": "Power Shoot",
+        "input": ":dp:+[A] {or} [C]"
+      },
+      {
+        "name": "Power Drive",
+        "input": ":dp:+[B] {or} [D]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Power Geyser",
+        "input": ":qcb::db::f:+[A] {or} [C]"
+      },
+      {
+        "name": "High Angle Geyser",
+        "input": ":qcf::qcf:+[B] {or} [D]"
+      }
+    ]
+  }
+}
