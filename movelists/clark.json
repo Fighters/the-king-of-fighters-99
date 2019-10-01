@@ -1,0 +1,98 @@
+{
+  "names": {
+    "default": {
+      "roman": "Clark"
+    },
+    "japan": {
+      "roman": "Clark",
+      "original": "クラーク・スティル"
+    }
+  },
+  "images": {
+    "face": "clark.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Nageppanashi German",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Fisherman Buster",
+        "input": "{close}, :b: {or} :f:+[D]"
+      },
+      {
+        "name": "Death Lake Driver",
+        "input": "{inAirAndClose}, :b: {or} :d: {or} :f:+[C] {or} [D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Stomping",
+        "input": ":f:+[B]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Gatling Attack",
+        "input": "{charge} :b: :f:+[A] {or} [C]"
+      },
+      {
+        "name": "Napalm Stretch",
+        "input": ":dp:+[A] {or} [C]",
+        "extraInfo": "{gatlingFollowup}"
+      },
+      {
+        "name": "Frankensteiner",
+        "input": ":dp:+[B] {or} [D]"
+      },
+      {
+        "name": "Mount Tackle",
+        "input": ":hcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Clark Lift",
+        "input": ":d::d:+[A]",
+        "after": "Mount Tackle"
+      },
+      {
+        "name": "Rolling Cradler",
+        "input": ":d::d:+[B] {or} [D]",
+        "after": "Mount Tackle"
+      },
+      {
+        "name": "Sleeper Lift (D.D.T.)",
+        "input": ":d::d:+[C]",
+        "after": "Mount Tackle"
+      },      
+      {
+        "name": "Super Argentine Backbreaker",
+        "input": ":hcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Flashing Elbow",
+        "input": "{afterClarkCommandThrows}, :qcf:+[A] {or} [C]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Ultra Argentine Backbreaker",
+        "input": ":hcb::hcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Running Three",
+        "input": ":hcf::hcf:+[B] {or} [D]"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "afterClarkCommandThrows": "after Napalm Stretch, Frankensteiner, Sleeper Lift (D.D.T.) {or} Super Argentine Backbreaker",
+      "gatlingFollowup": "Can be done immediately after a Gatling Attack"
+    },
+    "portuguese": {
+      "afterClarkCommandThrows": "after Napalm Stretch, Frankensteiner, Sleeper Lift (D.D.T.) {or} Super Argentine Backbreaker",
+      "gatlingFollowup": "Pode ser feito imediatamente após um Gatling Attack"
+    }
+  }
+}
