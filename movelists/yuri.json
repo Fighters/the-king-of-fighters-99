@@ -1,0 +1,88 @@
+{
+  "names": {
+    "default": {
+      "roman": "Yuri"
+    },
+    "japan": {
+      "roman": "Yuri",
+      "original": "ユリ・サカザキ"
+    }
+  },
+  "images": {
+    "face": "yuri.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Oni Harite",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Silent Nage",
+        "input": "{close}, :b: {or} :f:+[D]"
+      },
+      {
+        "name": "Tsubame Otoshi",
+        "input": "{inAirAndClose}, :b: {or} :d: {or} :f:+[C] {or} [D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Enyoku",
+        "input": ":f:+[A]"
+      },
+      {
+        "name": "Senkaikyaku",
+        "input": ":f:+[B] > :f:+[B]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Ko-oken",
+        "input": ":qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Haoh Shokoken",
+        "input": ":qcf:+{hold} [A] {or} [C]"
+      },
+      {
+        "name": "Raioken",
+        "input": ":qcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Yuri Cho Upper",
+        "input": ":dp:+[A] {or} [C]"
+      },
+      {
+        "name": "Double Yuri Cho Upper",
+        "input": ":dp:+[C] > :dp:+[A] {or} [C]"
+      },
+      {
+        "name": "Yuri Cho Knuckle",
+        "input": ":qcb:+[A] {or} [C] ({hold} [A] {or} [C] {toCharge})"
+      },
+      {
+        "name": "Yuri Cho Mawashigeri",
+        "input": ":qcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Hyakuretsu Binta",
+        "input": ":hcb::f:+[B] {or} [D]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Hien Hououkyaku",
+        "input": ":qcf::df::qcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Shin! Cho Upper",
+        "input": ":qcf::qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Hien Rekko",
+        "input": ":qcf::qcf:+[B] {or} [D]"
+      }
+    ]
+  }
+}
