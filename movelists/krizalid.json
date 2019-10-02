@@ -1,0 +1,61 @@
+{
+  "names": {
+    "default": {
+      "roman": "Krizalid"
+    },
+    "japan": {
+      "roman": "Krizalid",
+      "original": "クリザリッド"
+    }
+  },
+  "images": {
+    "face": "krizalid.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Dead Fall",
+        "input": "{close}, :b: {or} :f:+[C] {or} [D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Cut Spin",
+        "input": ":f:+[A]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Typhon Rage",
+        "input": ":qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Lethal Impact",
+        "input": ":qcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Rising Dark Moon",
+        "input": ":dp:+[A] {or} [C]"
+      },
+      {
+        "name": "Desperate Moment",
+        "input": ":hcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Moment Penetration",
+        "input": ":b: {or} :f:+[A] {or} [C]",
+        "after": "Desperate Moment"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Desperate Over Drive",
+        "input": ":qcf::df::qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "End of Heaven",
+        "input": ":qcb::db::qcf:+[A] {or} [C]"
+      }
+    ]
+  }
+}
