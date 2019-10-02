@@ -1,0 +1,90 @@
+{
+  "names": {
+    "default": {
+      "roman": "Xiangfei"
+    },
+    "japan": {
+      "roman": "Xiangfei",
+      "original": "李 香緋"
+    }
+  },
+  "images": {
+    "face": "xiangfei.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Kadoma",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Ryokuchi Koen",
+        "input": "{close}, :b: {or} :f:+[D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Soshoda",
+        "input": ":f:+[A]"
+      },
+      {
+        "name": "Kyuho Kosentai",
+        "input": ":f:+[B]"
+      },
+      {
+        "name": "Fukuho Kosentai",
+        "input": ":df:+[D]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Nanba",
+        "input": ":qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Senri Chuo",
+        "input": ":qcf:+[B]"
+      },
+      {
+        "name": "Kanku",
+        "input": ":qcf:+[B]",
+        "after": "Senri Chuo"
+      },
+      {
+        "name": "Senri Chuo Shinsaiha",
+        "input": ":qcf:+[D]"
+      },
+      {
+        "name": "Tenpozan",
+        "input": ":dp:+[B] {or} [D]"
+      },
+      {
+        "name": "Esaka",
+        "input": ":qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Banpaku Koen",
+        "input": ":hcb::f:+[A] {or} [C]"
+      },
+      {
+        "name": "Ekisuho",
+        "input": ":qcb:+[A] {or} [C]",
+        "after": "Banpaku Koen"
+      }
+    ],
+    "{desperationMove}": [
+      {
+        "name": "Cho Pai Long",
+        "input": ":qcf::qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Dai Tetsujin",
+        "input": ":qcf::df::qcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Mazinga",
+        "input": ":hcb::hcb:+[A] {or} [C]"
+      }
+    ]
+  }
+}
