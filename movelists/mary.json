@@ -1,0 +1,105 @@
+{
+  "names": {
+    "default": {
+      "roman": "Mary"
+    },
+    "japan": {
+      "roman": "Mary",
+      "original": "ブルー・マリー"
+    }
+  },
+  "images": {
+    "face": "mary.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Viktor Throw",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Head Throw",
+        "input": "{close}, :b: {or} :f:+[D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Hammer Arch",
+        "input": ":b: {or} :f:+[A]"
+      },
+      {
+        "name": "Double Rolling",
+        "input": ":b: {or} :f:+[B]"
+      },
+      {
+        "name": "Climbing Arrow",
+        "input": ":df:+[B]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Spin Fall",
+        "input": ":qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "M. Spider",
+        "input": ":qcf:+[A] {or} [C]",
+        "after": "Spin Fall"
+      },
+      {
+        "name": "Vertical Arrow",
+        "input": ":dp:+[B] {or} [D]"
+      },
+      {
+        "name": "M. Snatcher",
+        "input": ":dp:+[B] {or} [D]",
+        "after": "Vertical Arrow"
+      },
+      {
+        "name": "Straight Slicer",
+        "input": "{charge} :b: :f:+[B] {or} [D]"
+      },
+      {
+        "name": "Crab Clutch",
+        "input": ":qcf:+[B] {or} [D]",
+        "after": "Straight Slicer"
+      },
+      {
+        "name": "Real Counter",
+        "input": ":qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Backdrop Real",
+        "input": ":hcf:+[A] {or} [C]",
+        "after": "Real Counter"
+      },
+      {
+        "name": "Head Crush",
+        "input": ":hcf:+[B] {or} [D]",
+        "after": "Real Counter"
+      },
+      {
+        "name": "M. Reverse Facelock",
+        "input": ":qcb:+[B]"
+      },
+      {
+        "name": "M. Headbuster",
+        "input": ":qcb:+[D]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "M. Dynamite Swing",
+        "input": ":qcf::qcf:+[B] {or} [D]"
+      },
+      {
+        "name": "M. Splash Rose",
+        "input": ":qcf::df::qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "M. Typhoon",
+        "input": ":hcb::hcb:+[B] {or} [D]"
+      }
+    ]
+  }
+}
