@@ -1,0 +1,120 @@
+{
+  "names": {
+    "default": {
+      "roman": "Kyo"
+    },
+    "japan": {
+      "roman": "Kyo",
+      "original": "草薙 京"
+    }
+  },
+  "images": {
+    "face": "kyo.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Hatsugane",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Issetsu Seoi Nage",
+        "input": "{close}, :b: {or} :f:+[D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Ge-Shiki: Gofu Yo",
+        "input": ":f:+[B]"
+      },
+      {
+        "name": "88 Shiki",
+        "input": ":df:+[D]"
+      },
+      {
+        "name": "Ge-Shiki: Naraku Otoshi",
+        "input": "{inAir}, :d:+[C]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "114 Shiki: Aragami",
+        "input": ":qcf:+[A]"
+      },
+      {
+        "name": "128 Shiki: Konokizu",
+        "input": ":qcf:+[A] {or} [C]",
+        "after": "114 Shiki: Aragami"
+      },
+      {
+        "name": "127 Shiki: Yanosabi (I)",
+        "input": "[A] {or} [C]",
+        "after": "128 Shiki: Konokizu"
+      },
+      {
+        "name": "125 Shiki: Nanase",
+        "input": "[B] {or} [D]",
+        "after": "128 Shiki: Konokizu"
+      },
+      {
+        "name": "127 Shiki: Yanosabi (II)",
+        "input": ":hcb:+[A] {or} [C]",
+        "after": "114 Shiki: Aragami"
+      },
+      {
+        "name": "Ge-Shiki: Migiri Ugachi",
+        "input": "[A] {or} [C]",
+        "after": "127 Shiki: Yanosabi (II)"
+      },
+      {
+        "name": "125 Shiki: Nanase",
+        "input": "[B] {or} [D]",
+        "after": "127 Shiki: Yanosabi (II)"
+      },
+      {
+        "name": "115 Shiki: Dokugami",
+        "input": ":qcf:+[C]"
+      },
+      {
+        "name": "401 Shiki: Tsumiyomi",
+        "input": ":hcb:+[A] {or} [C]",
+        "after": "115 Shiki: Dokugami"
+      },
+      {
+        "name": "402 Shiki: Batsuyomi",
+        "input": ":f:+[A] {or} [C]",
+        "after": "401 Shiki: Tsumiyomi"
+      },
+      {
+        "name": "100 Shiki: Oniyaki",
+        "input": ":dp:+[A] {or} [C]"
+      },
+      {
+        "name": "75 Shiki: Kai",
+        "input": ":qcf:+[B] {or} [D] > [B] {or} [D]"
+      },
+      {
+        "name": "427 Shiki: Hikigane",
+        "input": ":hcb:+[B] {or} [D]"
+      },
+      {
+        "name": "910 Shiki: Nuetsumi",
+        "input": ":qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "R.E.D. Kick",
+        "input": ":rdp:+[B] {or} [D]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Ura 108 Shiki: Orochinagi",
+        "input": ":qcb::db::qcf:+[A] {or} [C] ({hold} [A] {or} [C] {toDelay})"
+      },
+      {
+        "name": "182 Shiki",
+        "input": ":qcf::qcf:+[A] {or} [C] ({hold} [A] {or} [C] {toCharge})"
+      }
+    ]
+  }
+}
