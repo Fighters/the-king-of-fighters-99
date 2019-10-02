@@ -1,0 +1,104 @@
+{
+  "names": {
+    "default": {
+      "roman": "Kyo-2"
+    },
+    "japan": {
+      "roman": "Kyo-2",
+      "original": "京-2"
+    }
+  },
+  "images": {
+    "face": "kyo2.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Hatsugane",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Issetsu Seoi Nage",
+        "input": "{close}, :b: {or} :f:+[D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Gofu Yo",
+        "input": ":f:+[B]"
+      },
+      {
+        "name": "Naraku Otoshi",
+        "input": "{inAir}, :d:+[C]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Aragami",
+        "input": ":qcf:+[A]"
+      },
+      {
+        "name": "Konokizu",
+        "input": ":qcf:+[A] {or} [C]",
+        "after": "Aragami"
+      },
+      {
+        "name": "Yanosabi (I)",
+        "input": "[A] {or} [C]",
+        "after": "Konokizu"
+      },
+      {
+        "name": "Nanase",
+        "input": "[B] {or} [D]",
+        "after": "Konokizu"
+      },
+      {
+        "name": "Yanosabi (II)",
+        "input": ":hcb:+[A] {or} [C]",
+        "after": "Aragami"
+      },
+      {
+        "name": "Migiri Ugachi",
+        "input": "[A] {or} [C]",
+        "after": "Yanosabi (II)"
+      },
+      {
+        "name": "Nuetsumi",
+        "input": "[B] {or} [D]",
+        "after": "Yanosabi (II)"
+      },
+      {
+        "name": "Dokugami",
+        "input": ":qcf:+[C]"
+      },
+      {
+        "name": "Tsumiyomi",
+        "input": ":hcb:+[A] {or} [C]",
+        "after": "Dokugami"
+      },
+      {
+        "name": "Batsuyomi",
+        "input": ":f:+[A] {or} [C]",
+        "after": "Tsumiyomi"
+      },
+      {
+        "name": "Oniyaki",
+        "input": ":dp:+[A] {or} [C]"
+      },
+      {
+        "name": "Kototsuki",
+        "input": ":hcb:+[B] {or} [D]"
+      },
+      {
+        "name": "R,E,D, Kick",
+        "input": ":rdp:+[B] {or} [D]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Mu-Shiki",
+        "input": ":qcf::qcf:+[A] {or} [C]"
+      }
+    ]
+  }
+}
