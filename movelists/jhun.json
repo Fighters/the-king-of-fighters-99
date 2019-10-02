@@ -107,7 +107,7 @@
         "name": "Switching Attack",
         "input": ":b: {or} :f:+[A]",
         "after": "Ryokojin",
-        "extraInfo": "{ryokojinCompatible}"
+        "extraInfo": "{soshujinCompatible}"
       },
       {
         "name": "Switch Style (Soshujin)",
