@@ -1,0 +1,143 @@
+{
+  "names": {
+    "default": {
+      "roman": "Jhun"
+    },
+    "japan": {
+      "roman": "Jhun",
+      "original": "ジョン・フーン"
+    }
+  },
+  "images": {
+    "face": "jhun.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Handogeki",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Kaisenpu",
+        "input": "{close}, :b: {or} :f:+[D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Ryokogeki",
+        "input": ":f:+[B]",
+        "extraInfo": "{ryokojinCompatible}"
+      },
+      {
+        "name": "Ryuroshu",
+        "input": "{inAir}, :d:+[B]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Kusajin",
+        "input": "{charge} :d: :u:+[A] {or} [C]",
+        "extraInfo": "{soshujinCompatibleSpecialMove}"
+      },
+      {
+        "name": "Haikigeki",
+        "input": ":qcb:+[A] {or} [C]",
+        "extraInfo": "{soshujinCompatibleSpecialMove}"
+      },
+      {
+        "name": "Mangetsuzan",
+        "input": ":qcb:+[B] {or} [D]",
+        "extraInfo": "{ryokojinCompatibleSpecialMove}"
+      },
+      {
+        "name": "Soshujin",
+        "input": ":d::d:+{hold} [A] ({use} :b: {or} :f: {toMove})"
+      },
+      {
+        "name": "Shusokyaku Lower",
+        "input": "{press} [C]",
+        "after": "Soshujin"
+      },
+      {
+        "name": "Shusokyaku Upper",
+        "input": ":u:+[C]",
+        "after": "Soshujin"
+      },
+      {
+        "name": "Taikyokuha",
+        "input": "{press} [D]",
+        "after": "Soshujin"
+      },
+      {
+        "name": "Switching Attack",
+        "input": ":b: {or} :f:+[B]",
+        "after": "Soshujin",
+        "extraInfo": "{ryokojinCompatible}"
+      },
+      {
+        "name": "Switch Style (Ryokojin)",
+        "input": "{press} {and} {hold} [B]",
+        "after": "Soshujin"
+      },
+      {
+        "name": "Ryokojin",
+        "input": ":d::d:+{hold} [B] ({use} :b: {or} :f: {toMove})"
+      },
+      {
+        "name": "Mokogeki",
+        "input": "{press} [C]",
+        "after": "Ryokojin"
+      },
+      {
+        "name": "Hikogeki",
+        "input": ":u:+[C]",
+        "after": "Ryokojin"
+      },
+      {
+        "name": "Shukogeki",
+        "input": ":d:+[C]",
+        "after": "Ryokojin"
+      },
+      {
+        "name": "Taikyokuhi",
+        "input": "{press} [D]",
+        "after": "Ryokojin"
+      },
+      {
+        "name": "Switching Attack",
+        "input": ":b: {or} :f:+[A]",
+        "after": "Ryokojin",
+        "extraInfo": "{ryokojinCompatible}"
+      },
+      {
+        "name": "Switch Style (Soshujin)",
+        "input": "{press} {and} {hold} [A]",
+        "after": "Ryokojin"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Houou Ressokyaku",
+        "input": ":qcf::qcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Houou Tenbukyaku",
+        "input": "{inAir}, :qcf::qcf:+[B] {or} [D]"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "ryokojinCompatible": "{hold} [B] to enter the Ryokojin stance",
+      "ryokojinCompatibleSpecialMove": "during the [B] version, {ryokojinCompatible}",
+      "soshujinCompatible": "{hold} [A] to enter the Soshujin stance",
+      "soshujinCompatibleSpecialMove": "during the [A] version, {soshujinCompatible}"
+    },
+    "portuguese": {
+      "ryokojinCompatible": "{hold} [B] para entrar na pose do Ryokojin",
+      "ryokojinCompatibleSpecialMove": "durante a versão com [B], {ryokojinCompatible}",
+      "soshujinCompatible": "{hold} [A] para entrar na pose do Soshujin",
+      "soshujinCompatibleSpecialMove": "durante a versão com [A], {soshujinCompatible}"
+    }
+  }
+}
