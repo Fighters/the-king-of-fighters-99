@@ -46,6 +46,10 @@
       {
         "name": "Banda",
         "input": "{inAir}, :d:+[B]"
+      },
+      {
+        "name": "Wall Jump",
+        "input": "{duringJumpNearWall}, :uf:"
       }
     ],
     "{specialMoves}": [
