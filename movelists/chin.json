@@ -1,0 +1,103 @@
+{
+  "names": {
+    "default": {
+      "roman": "Chin"
+    },
+    "japan": {
+      "roman": "Chin",
+      "original": "鎮 元斎"
+    }
+  },
+  "images": {
+    "face": "chin.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Goinshu",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Gyaku Ashi Nage",
+        "input": "{close}, :b: {or} :f:+[D]"
+      }
+    ],
+    "{commandMoves}":[
+      {
+        "name": "Suiho Hyotanshu",
+        "input": ":f:+[A]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Hyotan Geki",
+        "input": ":qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Ryurin Horai",
+        "input": ":dp:+[A] {or} [C]"
+      },
+      {
+        "name": "Kaitenteki Kutotsuken",
+        "input": ":hcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Suihaiko",
+        "input": ":qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Funenko",
+        "input": ":qcf:+[A] {or} [C]",
+        "after": "Suihaiko"
+      },
+      {
+        "name": "Goen Shorai Kai",
+        "input": ":dp:+[A] {or} [C]",
+        "after": "Suihaiko"
+      },
+      {
+        "name": "Suikan Kano",
+        "input": ":d::d:+[A] {or} [C] ({press} [A]+[B]+[C]+[D] {toCancel})"
+      },
+      {
+        "name": "Choshu Rikugyo",
+        "input": ":f:+[A] {or} [C]",
+        "after": "Suikan Kano"
+      },
+      {
+        "name": "Kaitenteki Kutotsuken",
+        "input": ":f:+[B] {or} [D]",
+        "after": "Suikan Kano"
+      },
+      {
+        "name": "Bogetsu Sui",
+        "input": ":d::d:+[B] {or} [D] ({use} :b: {or} :f: {toMove}; {press} [A]+[B]+[C]+[D] {toCancel})"
+      },
+      {
+        "name": "Roja Hanho",
+        "input": ":u:+[B]",
+        "after": "Bogetsu Sui"
+      },
+      {
+        "name": "Rigyo Hanho",
+        "input": ":u:+[D]",
+        "after": "Bogetsu Sui"
+      },
+      {
+        "name": "Kaitenteki Kutotsuken",
+        "input": ":f:+[B] {or} [D]",
+        "after": "Bogetsu Sui"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Goran Enho",
+        "input": ":qcf::qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Goen Shorai",
+        "input": ":qcf::df::qcb:+[A] {or} [C]"
+      }
+    ]
+  }
+}
