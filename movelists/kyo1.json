@@ -1,0 +1,64 @@
+{
+  "names": {
+    "default": {
+      "roman": "Kyo-1"
+    },
+    "japan": {
+      "roman": "Kyo-1",
+      "original": "京-1"
+    }
+  },
+  "images": {
+    "face": "kyo1.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Hatsugane",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Issetsu Seoi Nage",
+        "input": "{close}, :b: {or} :f:+[D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Kurogami",
+        "input": ":f:+[A]"
+      },
+      {
+        "name": "Honofuri",
+        "input": ":f:+[B]"
+      },
+      {
+        "name": "Migiri Ugachi",
+        "input": ":df:+[C]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Yamibarai",
+        "input": ":qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Oboroguruma",
+        "input": ":dp:+[B] {or} [D]"
+      },
+      {
+        "name": "Aoki",
+        "input": ":qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "75 Shiki: Kai",
+        "input": ":qcf:+[B] {or} [D] > [B] {or} [D]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Orochinagi",
+        "input": ":qcb::db::qcf:+[A] {or} [C] ({hold} [A] {or} [C] {toDelay})"
+      }
+    ]
+  }
+}
