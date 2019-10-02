@@ -1,0 +1,116 @@
+{
+  "names": {
+    "default": {
+      "roman": "Bao"
+    },
+    "japan": {
+      "roman": "Bao",
+      "original": "パオ"
+    }
+  },
+  "images": {
+    "face": "bao.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Genei Togi",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Critical Throw",
+        "input": "{close}, :b: {or} :f:+[D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Kawasaki",
+        "input": ":f:+[A]"
+      },
+      {
+        "name": "Senhekishu",
+        "input": ":f:+[B]"
+      },
+      {
+        "name": "Senshoshu",
+        "input": ":df:+[B]"
+      },
+      {
+        "name": "Rikatsushu",
+        "input": ":df:+[D]"
+      },
+      {
+        "name": "Sosho",
+        "input": "{inAir}, :d:+[A]"
+      },
+      {
+        "name": "Banda",
+        "input": "{inAir}, :d:+[B]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Psycho Ball Attack: Raise",
+        "input": ":qcf:+[A]"
+      },
+      {
+        "name": "Psycho Ball Attack: Bound",
+        "input": ":qcf:+[B]"
+      },
+      {
+        "name": "Psycho Ball Attack: Aerial Bound",
+        "input": "{inAir}, :qcf:+[B]"
+      },
+      {
+        "name": "Psycho Ball Attack: Front",
+        "input": ":qcb:+[A]"
+      },
+      {
+        "name": "Psycho Ball Attack: Aerial Front",
+        "input": "{inAir}, :qcb:+[A]"
+      },
+      {
+        "name": "Psycho Ball Attack: Reflect",
+        "input": ":qcb:+[B]"
+      },
+      {
+        "name": "Psycho Ball Crush: Raise",
+        "input": ":qcf:+[C]"
+      },
+      {
+        "name": "Psycho Ball Crush: Bound",
+        "input": ":qcf:+[D]"
+      },
+      {
+        "name": "Psycho Ball Crush: Aerial Bound",
+        "input": "{inAir}, :qcf:+[D]"
+      },
+      {
+        "name": "Psycho Ball Crush: Front",
+        "input": ":qcb:+[C]"
+      },
+      {
+        "name": "Psycho Ball Crush: Aerial Front",
+        "input": "{inAir}, :qcb:+[C]"
+      },
+      {
+        "name": "Psycho Ball Crush: Reflect",
+        "input": ":qcb:+[D]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Psycho Ball Attack DX",
+        "input": ":f::hcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Psycho Ball Attack MAX",
+        "input": ":qcb::qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Psycho Ball Crush Special",
+        "input": ":qcb::qcb:+[B] {or} [D]"
+      }
+    ]
+  }
+}
