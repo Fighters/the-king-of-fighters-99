@@ -1,0 +1,64 @@
+{
+  "names": {
+    "default": {
+      "roman": "Chang"
+    },
+    "japan": {
+      "roman": "Chang",
+      "original": "チャン・コーハン"
+    }
+  },
+  "images": {
+    "face": "chang.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Hagan Geki",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Kusari Jime",
+        "input": "{close}, :b: {or} :f:+[D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Hikinige",
+        "input": ":df:+[A]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Tekkyu Daikaiten",
+        "input": "{tap} [A] {or} [C] {repeatedly} ({use} :b: {or} :f: {toMove}; {press} [A]+[B]+[C]+[D] {toCancel})"
+      },
+      {
+        "name": "Tekkyu Funsai Geki",
+        "input": "{charge} :b: :f:+[A] {or} [C]"
+      },
+      {
+        "name": "Tekkyu Taiko Uchi",
+        "input": ":hcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Dai Hakai Nage",
+        "input": ":hcb::f:+[C]"
+      }
+    ],
+    "{desperationMove}": [
+      {
+        "name": "Tekkyu Dai Boso",
+        "input": ":qcf::df::qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Tekkyu Dai Assatsu",
+        "input": ":qcf::qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Tekkyu Dai Bokusatsu",
+        "input": ":qcf::qcf:+[B] {or} [D]"
+      }
+    ]
+  }
+}
