@@ -1,0 +1,68 @@
+{
+  "names": {
+    "default": {
+      "roman": "Kasumi"
+    },
+    "japan": {
+      "roman": "Kasumi",
+      "original": "藤堂 香澄"
+    }
+  },
+  "images": {
+    "face": "kasumi.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Makiage",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Aikinage",
+        "input": "{close}, :b: {or} :f:+[D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Hiji Ate",
+        "input": ":f:+[A]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Kasane Ate",
+        "input": ":qcf:+[A] {or} [C] ({airOK})"
+      },
+      {
+        "name": "Senko Sagashi",
+        "input": ":qcb:+[A] {or} [C] ({upTo3x})"
+      },
+      {
+        "name": "Hakuzanto",
+        "input": ":qcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Tatsumaki Soda",
+        "input": "{close}, :hcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Messhin Muto",
+        "input": ":hcf:+[B]"
+      },
+      {
+        "name": "Sassho Inshu",
+        "input": ":hcf:+[D]"
+      }
+    ],
+    "{desperationMove}": [
+      {
+        "name": "Cho Kasane Ate",
+        "input": ":qcf::qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Shingan Kuzu Otoshi",
+        "input": ":qcf::df::qcb:+[A] {or} [C]"
+      }
+    ]
+  }
+}
