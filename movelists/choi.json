@@ -1,0 +1,91 @@
+{
+  "names": {
+    "default": {
+      "roman": "Choi"
+    },
+    "japan": {
+      "roman": "Choi",
+      "original": "チョイ・ボンゲ"
+    }
+  },
+  "images": {
+    "face": "choi.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Zujo Sashi",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Geketsu Tsuki",
+        "input": "{close}, :b: {or} :f:+[D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Mukurozuki",
+        "input": ":f:+[A]"
+      },
+      {
+        "name": "Torimageri",
+        "input": ":f:+[B]"
+      },
+      {
+        "name": "Wall Jump",
+        "input": "{duringJumpNearWall}, :uf:"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Tatsumaki Shippuzan",
+        "input": "{charge} :d: :u:+[A] {or} [C]"
+      },
+      {
+        "name": "Senpu Hien Shitotsu",
+        "input": "{charge} :b: :f:+[A] {or} [C]"
+      },
+      {
+        "name": "Hoko Tenkan",
+        "input": "{anyDirection}+[A] {or} [B] {or} [C] {or} [D] ({upTo4x})",
+        "after": "Senpu Hien Shitotsu"
+      },
+      {
+        "name": "Hisho Kuretsuzan",
+        "input": "{charge} :d: :u:+[B] {or} [D] ({hold} [B] {or} [D] {toAttack})"
+      },
+      {
+        "name": "Hoko Tenkan",
+        "input": "{anyDirection}+[A] {or} [B] {or} [C] {or} [D] ({upTo4x})",
+        "after": "Hisho Kuretsuzan"
+      },
+      {
+        "name": "Kaiten Hienzan",
+        "input": ":qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Kishu Hienzuki",
+        "input": "[A] {or} [C]",
+        "after": "Kaiten Hienzan"
+      },
+      {
+        "name": "Hishokyaku",
+        "input": "{inAir}, :qcf:+[B] {or} [D]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Hououkyaku",
+        "input": ":qcf::df::qcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Shin! Chozetsu Tatsumaki Shinkuzan",
+        "input": ":hcb::hcb:+[A] {or} [C] ({use} :b: {or} :f: {toMove})"
+      },      
+      {
+        "name": "Shin! Chozetsu Rinkaiten Toppa",
+        "input": "{inAir}, :qcf::qcf:+[A] {or} [C]"
+      }
+    ]
+  }
+}
