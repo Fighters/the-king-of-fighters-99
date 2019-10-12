@@ -39,14 +39,10 @@
     "{specialMoves}": [
       {
         "name": "Raijinken",
-        "input": ":qcf:+[A]"
+        "input": ":qcf:+[A] {or} [C]"
       },
       {
-        "name": "Raijinken (Anti-Air)",
-        "input": ":qcf:+[C]"
-      },
-      {
-        "name": "Kuchu Raijinken",
+        "name": "Air Raijinken",
         "input": "{inAir}, :qcf:+[A] {or} [C]"
       },
       {

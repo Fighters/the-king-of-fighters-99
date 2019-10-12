@@ -43,7 +43,7 @@
       },
       {
         "name": "Dai Hakai Nage",
-        "input": ":hcb::f:+[C]"
+        "input": ":hcb::f:+[A] {or} [C]"
       }
     ],
     "{desperationMove}": [
