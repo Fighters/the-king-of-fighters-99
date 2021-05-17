@@ -1,564 +1,134 @@
 {
-  "romans": {
-    "regions": [
-      {
-        "region": "default",
-        "roman": "The King of Fighters '99"
-      },
-      {
-        "region": "japan",
-        "roman": "The King of Fighters '99",
-        "original": "ザ・キング・オブ・ファイターズ '99"
-      }
-    ],
-    "also-known-as": ["kof 99", "99"]
-  },
-  "platforms": [
-    {
-      "platform": "Arcade",
-      "regions": [
-        {
-          "region": "Japan",
-          "roman": "The King of Fighters '99",
-          "original": "ザ・キング・オブ・ファイターズ '99",
-          "releaseDate": "07-22-1999",
-          "developer": "SNK",
-          "publisher": "SNK"
-        },
-        {
-          "region": "United States",
-          "roman": "The King of Fighters '99",
-          "releaseDate": "07-22-1999",
-          "developer": "SNK",
-          "publisher": "SNK"
-        },
-        {
-          "region": "Europe",
-          "roman": "The King of Fighters '99",
-          "releaseDate": "07-22-1999",
-          "developer": "SNK",
-          "publisher": "SNK"
-        }
-      ]
-    },
-    {
-      "platform": "Neo Geo",
-      "regions": [
-        {
-          "region": "Japan",
-          "roman": "The King of Fighters '99",
-          "original": "ザ・キング・オブ・ファイターズ '99",
-          "releaseDate": "09-23-1999",
-          "developer": "SNK",
-          "publisher": "SNK",
-          "coverFront": "ng-jp-front.webp"
-        },
-        {
-          "region": "United States",
-          "roman": "The King of Fighters '99",
-          "releaseDate": "09-23-1999",
-          "developer": "SNK",
-          "publisher": "SNK",
-          "coverFront": "ng-us-front.webp"
-        }
-      ]
-    },
-    {
-      "platform": "Neo Geo CD",
-      "regions": [
-        {
-          "region": "Japan",
-          "roman": "The King of Fighters '99",
-          "original": "ザ・キング・オブ・ファイターズ '99",
-          "releaseDate": "12-02-1999",
-          "developer": "SNK",
-          "publisher": "SNK",
-          "coverFront": "ngcd-jp-front.webp"
-        },
-        {
-          "region": "United States",
-          "roman": "The King of Fighters '99",
-          "releaseDate": "1999",
-          "developer": "SNK",
-          "publisher": "SNK",
-          "coverFront": "ngcd-us-front.webp"
-        }
-      ]
-    },
-    {
-      "platform": "PlayStation",
-      "regions": [
-        {
-          "region": "Japan",
-          "roman": "The King of Fighters '99",
-          "original": "ザ・キング・オブ・ファイターズ '99",
-          "releaseDate": "03-23-2000",
-          "developer": "SNK",
-          "publisher": "SNK",
-          "coverFront": "ps1-jp-front.webp"
-        },
-        {
-          "region": "United States",
-          "roman": "The King of Fighters '99",
-          "releaseDate": "04-22-2001",
-          "developer": "SNK",
-          "publisher": "Agetec",
-          "coverFront": "ps1-us-front.webp"
-        }
-      ]
-    },
-    {
-      "platform": "Dreamcast",
-      "regions": [
-        {
-          "region": "Japan",
-          "roman": "The King of Fighters '99 Evolution",
-          "original": "ザ・キング・オブ・ファイターズ '99 EVOLUTION",
-          "releaseDate": "03-30-2000",
-          "developer": "SNK",
-          "publisher": "SNK",
-          "coverFront": "dc-jp-front.webp"
-        },
-        {
-          "region": "United States",
-          "roman": "The King of Fighters Evolution",
-          "releaseDate": "10-25-2001",
-          "developer": "SNK",
-          "publisher": "Agetec",
-          "coverFront": "dc-us-front.webp"
-        }
-      ]
-    }
-  ],
-  "characters": [
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "K'"
-        },
-        {
-          "region": "japan",
-          "roman": "K'",
-          "original": "ケイ・ダッシュ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Maxima"
-        },
-        {
-          "region": "japan",
-          "roman": "Maxima",
-          "original": "マキシマ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Benimaru Nikaido"
-        },
-        {
-          "region": "japan",
-          "roman": "Benimaru Nikaido",
-          "original": "二階堂 紅丸"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Shingo Yabuki"
-        },
-        {
-          "region": "japan",
-          "roman": "Shingo Yabuki",
-          "original": "矢吹 真吾"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Terry Bogard"
-        },
-        {
-          "region": "japan",
-          "roman": "Terry Bogard",
-          "original": "テリー・ボガード"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Andy Bogard"
-        },
-        {
-          "region": "japan",
-          "roman": "Andy Bogard",
-          "original": "アンディ・ボガード"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Joe Higashi"
-        },
-        {
-          "region": "japan",
-          "roman": "Joe Higashi",
-          "original": "ジョー・ヒガシ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Mai Shiranui"
-        },
-        {
-          "region": "japan",
-          "roman": "Mai Shiranui",
-          "original": "不知火 舞"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Ryo Sakazaki"
-        },
-        {
-          "region": "japan",
-          "roman": "Ryo Sakazaki",
-          "original": "リョウ・サカザキ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Robert Garcia"
-        },
-        {
-          "region": "japan",
-          "roman": "Robert Garcia",
-          "original": "ロバート・ガルシア"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Yuri Sakazaki"
-        },
-        {
-          "region": "japan",
-          "roman": "Yuri Sakazaki",
-          "original": "ユリ・サカザキ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Takuma Sakazaki"
-        },
-        {
-          "region": "japan",
-          "roman": "Takuma Sakazaki",
-          "original": "タクマ・サカザキ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Leona Heidern"
-        },
-        {
-          "region": "japan",
-          "roman": "Leona Heidern",
-          "original": "レオナ・ハイデルン"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Ralf Jones"
-        },
-        {
-          "region": "japan",
-          "roman": "Ralf Jones",
-          "original": "ラルフ・ジョーンズ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Clark Still"
-        },
-        {
-          "region": "japan",
-          "roman": "Clark Still",
-          "original": "クラーク・スティル"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Whip"
-        },
-        {
-          "region": "japan",
-          "roman": "Whip",
-          "original": "ウィップ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Athena Asamiya"
-        },
-        {
-          "region": "japan",
-          "roman": "Athena Asamiya",
-          "original": "麻宮 アテナ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Sie Kensou"
-        },
-        {
-          "region": "japan",
-          "roman": "Sie Kensou",
-          "original": "椎 拳崇"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Chin Gentsai"
-        },
-        {
-          "region": "japan",
-          "roman": "Chin Gentsai",
-          "original": "鎮 元斎"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Bao"
-        },
-        {
-          "region": "japan",
-          "roman": "Bao",
-          "original": "パオ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "King"
-        },
-        {
-          "region": "japan",
-          "roman": "King",
-          "original": "キング"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Blue Mary"
-        },
-        {
-          "region": "japan",
-          "roman": "Blue Mary",
-          "original": "ブルー・マリー"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Kasumi Todo"
-        },
-        {
-          "region": "japan",
-          "roman": "Kasumi Todo",
-          "original": "藤堂 香澄"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Li Xiangfei"
-        },
-        {
-          "region": "japan",
-          "roman": "Li Xiangfei",
-          "original": "李 香緋"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Kim Kaphwan"
-        },
-        {
-          "region": "japan",
-          "roman": "Kim Kaphwan",
-          "original": "キム・カッファン"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Chang Koehan"
-        },
-        {
-          "region": "japan",
-          "roman": "Chang Koehan",
-          "original": "チャン・コーハン"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Choi Bounge"
-        },
-        {
-          "region": "japan",
-          "roman": "Choi Bounge",
-          "original": "チョイ・ボンゲ"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Jhun Hoon"
-        },
-        {
-          "region": "japan",
-          "roman": "Jhun Hoon",
-          "original": "ジョン・フーン"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Kyo Kusanagi"
-        },
-        {
-          "region": "japan",
-          "roman": "Kyo Kusanagi",
-          "original": "草薙 京"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Iori Yagami"
-        },
-        {
-          "region": "japan",
-          "roman": "Iori Yagami",
-          "original": "八神 庵"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Kyo-1"
-        },
-        {
-          "region": "japan",
-          "roman": "Kyo-1",
-          "original": "京-1"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Kyo-2"
-        },
-        {
-          "region": "japan",
-          "roman": "Kyo-2",
-          "original": "京-2"
-        }
-      ]
-    },
-    {
-      "regions": [
-        {
-          "region": "default",
-          "roman": "Krizalid"
-        },
-        {
-          "region": "japan",
-          "roman": "Krizalid",
-          "original": "クリザリッド"
-        }
-      ]
-    }
-  ]
+	"names": [
+		{
+			"region": "default",
+			"roman": "The King of Fighters '99"
+		},
+		{
+			"region": "japan",
+			"roman": "The King of Fighters '99",
+			"original": "ザ・キング・オブ・ファイターズ '99"
+		}
+	],
+	"also-known-as": [
+		"kof 99",
+		"99"
+	],
+	"platforms": [
+		{
+			"name": "Arcade",
+			"regions": [
+				{
+					"name": "Japan",
+					"roman": "The King of Fighters '99",
+					"original": "ザ・キング・オブ・ファイターズ '99",
+					"releaseDate": "07-22-1999",
+					"developer": "SNK",
+					"publisher": "SNK"
+				},
+				{
+					"name": "United States",
+					"roman": "The King of Fighters '99",
+					"releaseDate": "07-22-1999",
+					"developer": "SNK",
+					"publisher": "SNK"
+				},
+				{
+					"name": "Europe",
+					"roman": "The King of Fighters '99",
+					"releaseDate": "07-22-1999",
+					"developer": "SNK",
+					"publisher": "SNK"
+				}
+			]
+		},
+		{
+			"name": "Neo Geo",
+			"regions": [
+				{
+					"name": "Japan",
+					"roman": "The King of Fighters '99",
+					"original": "ザ・キング・オブ・ファイターズ '99",
+					"releaseDate": "09-23-1999",
+					"developer": "SNK",
+					"publisher": "SNK",
+					"coverFront": "ng-jp-front.webp"
+				},
+				{
+					"name": "United States",
+					"roman": "The King of Fighters '99",
+					"releaseDate": "09-23-1999",
+					"developer": "SNK",
+					"publisher": "SNK",
+					"coverFront": "ng-us-front.webp"
+				}
+			]
+		},
+		{
+			"name": "Neo Geo CD",
+			"regions": [
+				{
+					"name": "Japan",
+					"roman": "The King of Fighters '99",
+					"original": "ザ・キング・オブ・ファイターズ '99",
+					"releaseDate": "12-02-1999",
+					"developer": "SNK",
+					"publisher": "SNK",
+					"coverFront": "ngcd-jp-front.webp"
+				},
+				{
+					"name": "United States",
+					"roman": "The King of Fighters '99",
+					"releaseDate": "1999",
+					"developer": "SNK",
+					"publisher": "SNK",
+					"coverFront": "ngcd-us-front.webp"
+				}
+			]
+		},
+		{
+			"name": "PlayStation",
+			"regions": [
+				{
+					"name": "Japan",
+					"roman": "The King of Fighters '99",
+					"original": "ザ・キング・オブ・ファイターズ '99",
+					"releaseDate": "03-23-2000",
+					"developer": "SNK",
+					"publisher": "SNK",
+					"coverFront": "ps1-jp-front.webp"
+				},
+				{
+					"name": "United States",
+					"roman": "The King of Fighters '99",
+					"releaseDate": "04-22-2001",
+					"developer": "SNK",
+					"publisher": "Agetec",
+					"coverFront": "ps1-us-front.webp"
+				}
+			]
+		},
+		{
+			"name": "Dreamcast",
+			"regions": [
+				{
+					"name": "Japan",
+					"roman": "The King of Fighters '99 Evolution",
+					"original": "ザ・キング・オブ・ファイターズ '99 EVOLUTION",
+					"releaseDate": "03-30-2000",
+					"developer": "SNK",
+					"publisher": "SNK",
+					"coverFront": "dc-jp-front.webp"
+				},
+				{
+					"name": "United States",
+					"roman": "The King of Fighters Evolution",
+					"releaseDate": "10-25-2001",
+					"developer": "SNK",
+					"publisher": "Agetec",
+					"coverFront": "dc-us-front.webp"
+				}
+			]
+		}
+	]
 }
